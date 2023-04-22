@@ -1,0 +1,195 @@
+/* Initial info */
+:root {
+  /* colors */
+  --logo-color: #4d5ae5;
+  --primary-btn-color: #4d5ae5;
+  --primary-brand-color: #4d5ae5;
+  --secondary-btn-color: #404bbf;
+  --header-color: #2e2f42;
+  --shadows-color: #2e2f42;
+  --primary-text-color: #2e2f42;
+  --valid-fields-colr: #31d0aa;
+  --text-color: #434455;
+  --subtle-text-color: #8e8f99;
+  --accent-color: #e7e9fc;
+  --light-color: #f4f4fd;
+  --modal-overlay-color: rgba(46, 47, 66, 0.4);
+  --hero-background-color: rgba(46, 47, 66, 0.7);
+  --white-background-color: #ffffff;
+  --modal-background-color: #fcfcfc;
+  --hero-text-color: #ffffff;
+  --additional-bgd-color: #e5e5e5;
+  /* fonts */
+  --primary-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+}
+/* General */
+body {
+  background-color: var(--white-background-color);
+  color: var(--text-color);
+  font-family: var(--primary-font);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* Header */
+.nav-logo {
+  color: var(--logo-color);
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.studi,
+.nav-link {
+  color: var(--header-color);
+}
+.header {
+  background-color: var(--white-background-color);
+  border-bottom: 1px solid var(--accent-color);
+}
+.nav {
+  font-weight: 500;
+}
+.navigation:hover,
+.navigation:focus {
+  color: var(--secondary-btn-color);
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration-line: none;
+}
+.contact-link {
+  color: var(--text-color);
+  font-style: normal;
+}
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--secondary-btn-color);
+}
+/* Hero-section */
+.hero-section {
+  background-color: var(--primary-text-color);
+}
+.hero {
+  color: var(--hero-text-color);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+/* Buttons */
+.button {
+  color: var(--hero-text-color);
+  background: var(--primary-btn-color);
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.button:hover,
+.button:focus {
+  background-color: var(--secondary-btn-color);
+}
+.button-filter {
+  color: var(--primary-brand-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  height: 48px;
+  background-color: var(--light-color);
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.button-filter:focus,
+.button-filter:hover {
+  color: var(--hero-text-color);
+  background-color: var(--secondary-btn-color);
+}
+/* Hidden item */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* Section Header */
+.title {
+  color: var(--header-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+/* List Header */
+.subtitle {
+  color: var(--header-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+/* Paragraph */
+.description {
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--text-color);
+}
+/* Cards Team */
+.team-list {
+  background-color: var(--hero-text-color);
+}
+.team {
+  background-color: var(--light-color);
+}
+/* Cards Projects */
+.crew {
+  background-color: var(--white-background-color);
+}
+/* Footer */
+.footer {
+  color: var(--light-color);
+  background-color: var(--header-color);
+}
+.studio-footer {
+  color: var(--light-color);
+}
