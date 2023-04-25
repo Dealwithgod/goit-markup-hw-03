@@ -145,7 +145,6 @@ img {
   width: 496px;
 }
 .hero-block-container {
-  display: flex;
   align-items: center;
   flex-direction: column;
   gap: 48px;
@@ -158,6 +157,8 @@ img {
   line-height: 1.07;
   letter-spacing: 0.02em;
   max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 /* Buttons */
 .btn {
@@ -178,6 +179,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  margin: 0 auto;
 }
 .button:hover,
 .button:focus {
@@ -187,7 +189,6 @@ img {
   display: flex;
   justify-content: center;
   gap: 24px;
-  margin-top: 96px;
   margin-bottom: 72px;
 }
 .button-filter {
@@ -290,8 +291,7 @@ img {
   padding-bottom: 120px;
 }
 .title-container {
-  display: flex;
-  justify-content: center;
+  text-align: center;
   margin-bottom: 72px;
 }
 .card-container {
@@ -346,10 +346,7 @@ img {
   row-gap: 48px;
 }
 .project-list {
-  width: 360px;
-
   flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
-  overflow: hidden;
 }
 
 .card-project-text {
